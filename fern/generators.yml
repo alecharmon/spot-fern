@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://schema.buildwithfern.dev/generators-yml.json
+api:
+  specs:
+    - openapi: ../openapi.yaml
+default-group: local
+groups:
+  local:
+    generators:
+      - name: fernapi/fern-swift-sdk
+        version: 0.23.3
+        # output:
+        #   location: local-file-system
+        #   path: ../../spot-swift
+        github:
+          repository: alecharmon/spot-swift

@@ -1,0 +1,11 @@
+export type { GetFriendsIdRequest } from "./GetFriendsIdRequest.js";
+export type { GetFriendsRequest } from "./GetFriendsRequest.js";
+export type { GetLikesFriendsAggregateNearbyRequest } from "./GetLikesFriendsAggregateNearbyRequest.js";
+export type { GetLikesFriendsAggregateRequest } from "./GetLikesFriendsAggregateRequest.js";
+export type { GetLikesFriendsRequest } from "./GetLikesFriendsRequest.js";
+export type { GetLikesMineAggregateNearbyRequest } from "./GetLikesMineAggregateNearbyRequest.js";
+export type { GetLikesMineAggregateRequest } from "./GetLikesMineAggregateRequest.js";
+export type { GetLikesMineRequest } from "./GetLikesMineRequest.js";
+export type { GetPoisRequest } from "./GetPoisRequest.js";
+export type { PostLikesRequest } from "./PostLikesRequest.js";
+export type { PostPoisRequest } from "./PostPoisRequest.js";
